@@ -2,7 +2,7 @@ import math
 
 
 class Point:
-    "Represents the thew point in two dimensional coordinate"
+    """Represents the thew point in two dimensional coordinate"""
 
     def __new__(cls):
         """
