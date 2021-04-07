@@ -40,7 +40,7 @@ class Point:
     def calculate_difference(self, another_point):
         """
         calculate the distance between two point using pythagorean theorem
-        :param another_point:
+        :param another_point: another instance of point class
         :return: distance between two points
         """
         return math.sqrt(((self.x - another_point.x) ** 2) + ((self.y - another_point.y) ** 2))
