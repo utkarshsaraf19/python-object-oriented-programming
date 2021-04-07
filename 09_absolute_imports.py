@@ -17,3 +17,5 @@ db_object3 = db()
 db_object3.x = 80
 db_object3.y = 90
 print(db_object3.x,db_object3.y)
+
+
