@@ -1,6 +1,7 @@
-
-# modules are just python files
-
+"""
+modules are just python files and
+__init__.py gives it the identity of package rather than just folders
+"""
 import ecommerce.database
 
 db_object = ecommerce.database.Database()
